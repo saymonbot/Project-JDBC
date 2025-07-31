@@ -10,9 +10,9 @@ import model.entities.Department;
 public class Program2 {
 	
 public static void main(String[] args) {
-		
+
 		Scanner scan = new Scanner(System.in);
-		
+
 		//Program to execute alterations in department table
 
 		DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
@@ -45,6 +45,5 @@ public static void main(String[] args) {
 		System.out.println("DELETE COMPLETE");
 		
 		scan.close();
-		
 	}
 }
